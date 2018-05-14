@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8cf2000-ac61-4b0a-9cce-a2f9543be742" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ReviewController.php" afterDir="false" />
-    </list>
+    <list default="true" id="d8cf2000-ac61-4b0a-9cce-a2f9543be742" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,10 +200,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="x" value="684" />
+    <option name="width" value="672" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -331,23 +328,6 @@
               <item name="flyaround" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="ReviewController.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-              <item name="ReviewController.php" type="88303cf5:PhpFileNode" />
-              <item name="ReviewController" type="e2efd96b:PhpElementNode" />
-            </path>
-            <path>
-              <item name="flyaround" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyaround" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -446,12 +426,12 @@
       <workItem from="1524414643123" duration="395000" />
       <workItem from="1524468492167" duration="4502000" />
       <workItem from="1525337182077" duration="8608000" />
-      <workItem from="1526287984764" duration="15854000" />
+      <workItem from="1526287984764" duration="16401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37971000" />
+    <option name="totallyTimeSpent" value="38518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -465,7 +445,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996016" visible="true" weight="0.64118564" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996016" visible="true" weight="0.6224649" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />

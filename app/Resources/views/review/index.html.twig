@@ -1,1 +1,34 @@
-index
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Reviews list</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Text</th>
+            <th>UserRated</th>
+            <th>ReviewAuthor</th>
+            <th>PublicationDate</th>
+            <th>Note</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for review in review %}
+            <tr>
+                <td>{{ review.text }}</td>
+                <td>{{ review.userRated }}</td>
+                <td>{{ review.reviewAuthor }}</td>
+                <td>{{ review.publicationDate|date('Y-m-d H:i:s') }}</td>
+                <td>{{ review.note }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('review_new') }}">Create a new user</a>
+        </li>
+    </ul>
+{% endblock %}
