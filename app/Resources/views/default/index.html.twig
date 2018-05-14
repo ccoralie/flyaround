@@ -3,6 +3,15 @@
 {% block body %}
     <div id="wrapper">
         <div id="container">
+            <h1>Index</h1>
+            <ul>
+            <li><a href="/planemodel">Plane Model</a></li>
+            <li><a href="/user">User</a></li>
+            <li><a href="/flight">Flight</a></li>
+            <li><a href="/reservation">Reservation</a></li>
+            </ul>
+
+            {#
             <div id="welcome">
                 <h1><span>Welcome to</span> Symfony {{ constant('Symfony\\Component\\HttpKernel\\Kernel::VERSION') }}</h1>
             </div>
@@ -41,7 +50,7 @@
                     </a>
                 </p>
             </div>
-
+#}
         </div>
     </div>
 {% endblock %}
