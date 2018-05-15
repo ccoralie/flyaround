@@ -26,6 +26,7 @@ class ReviewType extends AbstractType
             ->add('text', TextareaType::class, array('attr' => array('maxlenght' => 250, 'label' => 'Description')))
             ->add('publicationDate', DateType::class, array('data' => new \DateTime('now')))
             ->add('note', IntegerType::class, array('attr' => array('min'=>0, 'max'=>5, 'label'=> 'Note')))
+            ->add('aggreeTerms', CheckboxType::class, array('mapped'=> false))
             ->add('userRated', EntityType::class, array(
                 'class' => 'AppBundle\Entity\User',
                 'query_builder' => function (EntityRepository $er){
