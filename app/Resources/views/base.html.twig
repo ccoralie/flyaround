@@ -5,11 +5,27 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="{{ asset('build/style.css') }}">
     </head>
     <body>
+    <nav>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">HOME</a>
+                <a class="navbar-brand" href="/login">Login</a>
+                <a class="navbar-brand" href="/logout">Log out</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/planemodel">Avions</a></li>
+                <li><a href="/reservation">Reservation</a></li>
+                <li><a href="/flight">Vols</a></li>
+                <li><a href="/site">Terrains</a></li>
+                <li><a href="/review">Avis utilisateurs</a></li>
+            </ul>
+        </div>
+    </nav>
         {% block body %}{% endblock %}
+        <script src="{{ asset('build/app.js') }}"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
