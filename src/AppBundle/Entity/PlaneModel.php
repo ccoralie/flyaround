@@ -12,6 +12,14 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class PlaneModel
 {
+
+    public function __toString()
+    {
+        // return the Flight object with "[Departure] [Arrival]".
+        return $this->model;
+
+
+    }
     /**
      * @var int
      *
